@@ -10,14 +10,16 @@
 	<title>CodeIgniter Bootstrap</title>
 	
 	<link href="<?=base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
-	<link href="<?=base_url('assets/css/bootstrap-responsive.min.css') ?>" rel="stylesheet">
 	<link href="<?=base_url('assets/css/font-awesome.css') ?>" rel="stylesheet">
 	<link href="<?=base_url('assets/css/custom.css') ?>" rel="stylesheet">
 	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/1.2.1/lodash.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.10.8/jquery.tablesorter.min.js"></script>
+	
 	<script src="<?=base_url('assets/js/bootstrap.min.js') ?>"></script>
 	<script src="<?=base_url('assets/js/custom.js') ?>"></script>
 </head>
 <body>
+<div class="container">
